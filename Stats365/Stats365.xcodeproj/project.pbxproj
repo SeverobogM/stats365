@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7752CE9C13B8F4E16773561F /* Pods_Stats365.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144111A4CF951530E3A443DD /* Pods_Stats365.framework */; };
+		C48481EF292BEBEB0021174D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481EE292BEBEB0021174D /* MainVC.swift */; };
+		C48481F1292BEC300021174D /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481F0292BEC300021174D /* CalendarVC.swift */; };
+		C48481F3292BEC420021174D /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481F2292BEC420021174D /* MatchVC.swift */; };
+		C48481F5292BEC760021174D /* BetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481F4292BEC760021174D /* BetVC.swift */; };
+		C48481F7292BEC880021174D /* MatchInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481F6292BEC880021174D /* MatchInfoVC.swift */; };
+		C48481F9292BEC980021174D /* MyBetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481F8292BEC980021174D /* MyBetsVC.swift */; };
+		C48481FB292BECAE0021174D /* MyBetsCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481FA292BECAE0021174D /* MyBetsCalendarVC.swift */; };
+		C48481FD292BECBE0021174D /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481FC292BECBE0021174D /* StatsVC.swift */; };
+		C48481FF292BECC90021174D /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48481FE292BECC90021174D /* NewsVC.swift */; };
 		FF2A0064292B34E6005BCB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A0063292B34E6005BCB6F /* AppDelegate.swift */; };
 		FF2A0066292B34E6005BCB6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A0065292B34E6005BCB6F /* SceneDelegate.swift */; };
 		FF2A0068292B34E6005BCB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A0067292B34E6005BCB6F /* ViewController.swift */; };
@@ -20,6 +29,15 @@
 		144111A4CF951530E3A443DD /* Pods_Stats365.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stats365.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCE60FCF7CFFF8330F93CAD /* Pods-Stats365.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stats365.release.xcconfig"; path = "Target Support Files/Pods-Stats365/Pods-Stats365.release.xcconfig"; sourceTree = "<group>"; };
 		4E60A04981F3D6F54B16E204 /* Pods-Stats365.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stats365.debug.xcconfig"; path = "Target Support Files/Pods-Stats365/Pods-Stats365.debug.xcconfig"; sourceTree = "<group>"; };
+		C48481EE292BEBEB0021174D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C48481F0292BEC300021174D /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		C48481F2292BEC420021174D /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
+		C48481F4292BEC760021174D /* BetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetVC.swift; sourceTree = "<group>"; };
+		C48481F6292BEC880021174D /* MatchInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoVC.swift; sourceTree = "<group>"; };
+		C48481F8292BEC980021174D /* MyBetsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBetsVC.swift; sourceTree = "<group>"; };
+		C48481FA292BECAE0021174D /* MyBetsCalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBetsCalendarVC.swift; sourceTree = "<group>"; };
+		C48481FC292BECBE0021174D /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
+		C48481FE292BECC90021174D /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		FF2A0060292B34E6005BCB6F /* Stats365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stats365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2A0063292B34E6005BCB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF2A0065292B34E6005BCB6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +77,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C48481EB292BEB260021174D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48481EC292BEB2E0021174D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48481ED292BEB350021174D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C48481EE292BEBEB0021174D /* MainVC.swift */,
+				C48481F0292BEC300021174D /* CalendarVC.swift */,
+				C48481F2292BEC420021174D /* MatchVC.swift */,
+				C48481F4292BEC760021174D /* BetVC.swift */,
+				C48481F6292BEC880021174D /* MatchInfoVC.swift */,
+				C48481F8292BEC980021174D /* MyBetsVC.swift */,
+				C48481FA292BECAE0021174D /* MyBetsCalendarVC.swift */,
+				C48481FC292BECBE0021174D /* StatsVC.swift */,
+				C48481FE292BECC90021174D /* NewsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		FF2A0057292B34E6005BCB6F = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +128,9 @@
 		FF2A0062292B34E6005BCB6F /* Stats365 */ = {
 			isa = PBXGroup;
 			children = (
+				C48481ED292BEB350021174D /* Controller */,
+				C48481EC292BEB2E0021174D /* View */,
+				C48481EB292BEB260021174D /* Model */,
 				FF2A0063292B34E6005BCB6F /* AppDelegate.swift */,
 				FF2A0065292B34E6005BCB6F /* SceneDelegate.swift */,
 				FF2A0067292B34E6005BCB6F /* ViewController.swift */,
@@ -207,8 +258,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2A0068292B34E6005BCB6F /* ViewController.swift in Sources */,
+				C48481F3292BEC420021174D /* MatchVC.swift in Sources */,
+				C48481F1292BEC300021174D /* CalendarVC.swift in Sources */,
+				C48481EF292BEBEB0021174D /* MainVC.swift in Sources */,
+				C48481FB292BECAE0021174D /* MyBetsCalendarVC.swift in Sources */,
+				C48481FF292BECC90021174D /* NewsVC.swift in Sources */,
+				C48481F5292BEC760021174D /* BetVC.swift in Sources */,
+				C48481FD292BECBE0021174D /* StatsVC.swift in Sources */,
 				FF2A0064292B34E6005BCB6F /* AppDelegate.swift in Sources */,
+				C48481F7292BEC880021174D /* MatchInfoVC.swift in Sources */,
 				FF2A0066292B34E6005BCB6F /* SceneDelegate.swift in Sources */,
+				C48481F9292BEC980021174D /* MyBetsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
