@@ -1,0 +1,6 @@
+framework module Pods_Stats365 {
+  umbrella header "Pods-Stats365-umbrella.h"
+
+  export *
+  module * { export * }
+}
